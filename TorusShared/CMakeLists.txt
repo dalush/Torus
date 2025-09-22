@@ -1,0 +1,9 @@
+file(GLOB_RECURSE TORUS_SHARED_SRC_FILES
+	${CMAKE_CURRENT_SOURCE_DIR}/Src/*.h
+	${CMAKE_CURRENT_SOURCE_DIR}/Src/*.hpp
+	${CMAKE_CURRENT_SOURCE_DIR}/Src/*.cpp
+)
+
+add_library(TorusShared STATIC ${TORUS_SHARED_SRC_FILES})
+
+add_subdirectory(Tests)

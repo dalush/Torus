@@ -1,0 +1,26 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "build\\x64-debug",
+      "build\\install\\x64-debug",
+      "build\\x64-release",
+      "build\\install\\x64-release",
+      "build\\x86-debug",
+      "build\\install\\x86-debug",
+      "build\\x86-release",
+      "build\\install\\x86-release"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\TorusShared",
+    "\\TorusShared\\Src",
+    "\\TorusShared\\Src\\Core",
+    "\\TorusShared\\Src\\Core\\GameManagers",
+    "\\TorusShared\\Src\\Core\\Network",
+    "\\TorusShared\\Src\\Math",
+    "\\TorusShared\\Tests"
+  ],
+  "SelectedNode": "\\DOCS",
+  "PreviewInSolutionExplorer": false
+}
