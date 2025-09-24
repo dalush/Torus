@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../EntityId.h"
+#include "../EntityId.hpp"
 #include <unordered_set>
 
 class EntitiesManager {

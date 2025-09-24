@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../EntityId.h"
+#include "../EntityId.hpp"
 #include "../Component.h"
 #include <unordered_map>
 #include <typeindex>

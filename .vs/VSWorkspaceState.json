@@ -12,13 +12,8 @@
     ]
   },
   "ExpandedNodes": [
-    "",
-    "\\TorusShared",
-    "\\TorusShared\\Src",
-    "\\TorusShared\\Src\\Core",
-    "\\TorusShared\\Src\\Core\\GameManagers",
-    "\\TorusShared\\Src\\Core\\Network"
+    ""
   ],
-  "SelectedNode": "\\TorusShared\\Src\\Core\\Network\\NetManager.h",
+  "SelectedNode": "\\CMakeLists.txt",
   "PreviewInSolutionExplorer": false
 }
