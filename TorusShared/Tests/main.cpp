@@ -13,7 +13,10 @@ EntitiesManager EntMan;
 
 int main() {
 	auto ent = EntMan.SpawnEntity();
-	auto transform = CompMan.AddComponent<TransformTest>(ent);
+	auto transform = CompMan.ForceComponent<TransformTest>(ent);
+	CompMan.DeleteComponent<TransformTest>(ent);
+	if (CompMan.HasComponent(ent, typeid(TransformTest)))
+		std::cout << "Has!";
 
 	char i;
 	std::cin >> i;

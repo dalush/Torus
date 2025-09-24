@@ -61,10 +61,10 @@ public:
 	/// <returns>returns a pointer to the entity component</returns>
 	template<typename TComp = Component>
 	TComp* ForceComponent(EntityId entity) {
-		if (!HasComponent(entity, typeid(TComp)))
-			return AddComponent<TComp>(entity);
+		if (auto component = GetComponent<TComp>(entity))
+			return component;
 
-		return GetComponent<TComp>(entity);
+		return AddComponent<TComp>(entity);
 	}
 
 	/// <summary>
@@ -74,9 +74,6 @@ public:
 	/// <param name="entity">target entity id</param>
 	template<typename TComp = Component>
 	void DeleteComponent(EntityId entity) {
-		if (!HasComponent(entity, typeid(TComp)))
-			return;
-
 		auto& componentSnapshot = ComponentsMap[typeid(TComp)];
 		componentSnapshot.erase(entity);
 	}

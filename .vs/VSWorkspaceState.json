@@ -17,10 +17,8 @@
     "\\TorusShared\\Src",
     "\\TorusShared\\Src\\Core",
     "\\TorusShared\\Src\\Core\\GameManagers",
-    "\\TorusShared\\Src\\Core\\Network",
-    "\\TorusShared\\Src\\Math",
-    "\\TorusShared\\Tests"
+    "\\TorusShared\\Src\\Core\\Network"
   ],
-  "SelectedNode": "\\DOCS",
+  "SelectedNode": "\\TorusShared\\Src\\Core\\Network\\NetManager.h",
   "PreviewInSolutionExplorer": false
 }
