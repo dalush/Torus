@@ -12,8 +12,9 @@
     ]
   },
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TorusShared"
   ],
-  "SelectedNode": "\\CMakeLists.txt",
+  "SelectedNode": "\\TorusServer",
   "PreviewInSolutionExplorer": false
 }
